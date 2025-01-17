@@ -5,11 +5,9 @@ go 1.22
 require (
 	github.com/hashicorp/terraform-plugin-docs v0.7.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.13.0
-	github.com/looker-open-source/sdk-codegen/go v0.0.2-0.20220425180701-d51a6750f7d5
+	github.com/looker-open-source/sdk-codegen/go v0.24.20
 	github.com/stretchr/testify v1.7.0
 )
-
-replace github.com/looker-open-source/sdk-codegen/go => github.com/hirosassa/sdk-codegen/go v0.0.2-0.20220604105615-6ef4a4149ee4
 
 require (
 	github.com/Masterminds/goutils v1.1.0 // indirect
